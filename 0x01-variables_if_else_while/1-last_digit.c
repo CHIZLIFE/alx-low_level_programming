@@ -9,8 +9,8 @@
  * Return: Always 0 (success)
  */
 int main(void) 
+
 {
-	
 	int l;
 	int n;
 
@@ -20,7 +20,7 @@ int main(void)
 
 	if (l > 5) 
 	{
-		printf("Last digit of %d is %d is greater than 5\n", n, l);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
 
 	else if (l == 0) 
