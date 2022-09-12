@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -10,11 +8,16 @@
  */
 int main(void)
 {
-	char ch = e, q;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	if (ch != e && ch != q)
-	{putchar(ch); }
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+
 	putchar("\n");
+
 	return (0);
 }
