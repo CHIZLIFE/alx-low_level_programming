@@ -3,31 +3,22 @@
 #include <time.h>
 /**
  * main - print if the number is positive,negative or zero
- * 
  * Description: using the Betty Documentation Style
  * this program prints "programming is positive,zero or negative"
  * Return 0;
  */
-
-int main(void) {
-
+int main(void)
+{
 int n;
-
 srand(time(0));
-n=rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
+if (n < 0) 
+	printf("%d is positive\n", n); 
+else if (n == 0) 
+	printf("%d is zero\n", n); 
+else 
+	printf("%d is negative\n", n); 
 
-if (n<0) {
-	printf("%d is positive\n", n);
-}
-
-else if (n==0) {
-	printf("%d is zero\n", n);
-}
-
-else {
-	printf("%d is negative\n", n);
-}
-
-return 0;
+return (0);
 
 }
