@@ -15,7 +15,7 @@ int main(void)
 		puthchar((num % 10) + '0');
 
 	for (letter = 'a'; letter <= 'f'; letter++)
-		putcha(letter);
+		putchar(letter);
 
 	putchar('\n');
 
