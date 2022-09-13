@@ -1,15 +1,14 @@
 #include <stdio.h>
 
+/* betty style doc for function main goes there */
 /**
-* main - print the string in the puts function
+* main - Entry point
 *
-* Description: using the main function
-* this programs prints "and that piece of art is useful - Dora korpar, 2015-10-19"
-* Result: 0
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-	fwrite(2, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 61);
-	
-	return (1);
+	write("and that piece of art is useful - Dora korpar, 2015-10-19\n", 61);
+
+	return (0);
 }
