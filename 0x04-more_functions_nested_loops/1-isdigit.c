@@ -2,11 +2,11 @@
 
 /**
  * _isdigit - a function that checks for a digit 0 through 9
- *  @c: input
+ *  @c: tested checker
  *
  *  Return: 1 if c is a digit, 0 otherwise
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if ((c >= 48) && (c <= 57))
 	{
