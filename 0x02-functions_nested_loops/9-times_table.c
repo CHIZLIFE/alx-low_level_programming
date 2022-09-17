@@ -5,7 +5,7 @@
  *
  * starting from 0
  *
- * Return: on success 1, otherwise 0
+ * Return: times table
  */
 void times_table(void)
 {
