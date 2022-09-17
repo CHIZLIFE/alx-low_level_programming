@@ -7,7 +7,7 @@
  *
  * Return: on success 1, otherwise 0
  */
-int times_table(void)
+void times_table(void)
 {
 	int numb, mult, product;
 
