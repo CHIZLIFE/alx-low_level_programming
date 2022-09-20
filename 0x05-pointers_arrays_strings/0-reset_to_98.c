@@ -1,4 +1,5 @@
-#include "main.h"
+#include "main"
+#include <stdio.h>
 
 /**
  * reset_to_98 - a function that takes a pointer to an integer
