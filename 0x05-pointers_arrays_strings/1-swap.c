@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * swap_int - a function that swaps the values of two integer
@@ -8,7 +7,7 @@
  *
  * Return: integers
  */
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b);
 {
 	int n;
 
