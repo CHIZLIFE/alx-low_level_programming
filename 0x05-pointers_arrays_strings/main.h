@@ -11,9 +11,11 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
-void puts(char *str);
+void puts2(char *str);
+void _putchar(char);
 void puts_half(char *str);
-void prints_array(int *a, int n);
+void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 
 #endif  /* MAIN_H */
