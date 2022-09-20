@@ -9,9 +9,9 @@
 int _strlen(char *s)
 {
 	int count = 0, i = 0;
-	char name[30];
+	char s[] = "c is fun";
 
-	while (name(i) != '\0')
+	while (s(i) != '\0')
 	{
 		count++;
 		i++;
