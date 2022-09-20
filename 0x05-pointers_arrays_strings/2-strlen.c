@@ -8,13 +8,13 @@
  */
 int _strlen(char *s)
 {
-	int count = 0, i = 0;
-	char str[] = "c is fun";
+	int count = 0, i;
+	char lenght[30];
 
-	while (str(i) != '\0')
+	while (lenght(i) != '\0')
 	{
 		count++;
 		i++;
 	}
-	return (count);
+	return (0);
 }
