@@ -14,15 +14,15 @@ char *_strcat(char *dest, char *src)
 	char s1[100] = "programming";
 	char s2[] = "is awesome";
 
-	length = 0;
-	while (s1[length] != '\0')
+	length = 0, i = 0;
+	while (s1[length++])
 	{
 		length++;
 	}
 
-	for (i = 0; s2[i] != '\0'; i++, length++)
+	for (i = 0; s2[i]; i++,)
 	{
 		s1[length++] = s2[i];
 	}
-	s1[length] = '\0';
+	return (s1);
 }
