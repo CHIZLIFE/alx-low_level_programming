@@ -9,15 +9,19 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int l1, l2, i;
-	char s1[30] = "isaiah";
-	char s2[7] = "richman";
+	int length, i;
+	char s1[100] = "programming";
+	char s2[] = "is awesome";
 
-	l1 = strlen(s1);
-	l2 = strlen(s2);
-	for (i = 0; i <= l2; i++)
+	length = 0;
+	while (s1[length] != '\0')
 	{
-		s1[l + i] = s2[i];
+		++length;
 	}
-	putchar("%s", s1 '\0');
+
+	for (i = 0; s2[i] != '\0'; ++i, ++length)
+	{
+		s1[length] = s2[i];
+	}
+	s1[length] = '\0';
 }
