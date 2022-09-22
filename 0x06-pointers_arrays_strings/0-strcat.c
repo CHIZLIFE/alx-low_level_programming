@@ -14,14 +14,18 @@ char *_strcat(char *dest, char *src)
 	char s2[] = "is awesome";
 
 	length = 0, i = 0;
-	while (s1[length++])
+	while (s1[length] != '\0')
 	{
 		length++;
 	}
 
-	for (i = 0; s2[i]; i++,)
+	for (i = 0; s2[i] != '\0'; i++, length++)
 	{
-		s1[length++] = s2[i];
+		s1[length] = s2[i];
 	}
-	return (s1);
+	s1[length] = '\0';
+
+	putchar(s1);
+
+	return (0);
 }
