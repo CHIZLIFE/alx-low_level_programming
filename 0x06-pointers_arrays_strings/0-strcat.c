@@ -17,12 +17,12 @@ char *_strcat(char *dest, char *src)
 	length = 0;
 	while (s1[length] != '\0')
 	{
-		++length;
+		length++;
 	}
 
-	for (i = 0; s2[i] != '\0'; ++i, ++length)
+	for (i = 0; s2[i] != '\0'; i++, length++)
 	{
-		s1[length] = s2[i];
+		s1[length++] = s2[i];
 	}
 	s1[length] = '\0';
 }
