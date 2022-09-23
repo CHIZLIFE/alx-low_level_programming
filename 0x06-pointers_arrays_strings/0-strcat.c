@@ -19,13 +19,13 @@ char *_strcat(char *dest, char *src)
 		length++;
 	}
 
-	for (i = 0; s2[i] != '\0'; i++, length++)
+	while (s2[i] != '\0')
 	{
 		s1[length] = s2[i];
+		i++;
+		length++;
 	}
+
 	s1[length] = '\0';
-
-	putchar(s1);
-
-	return (0);
+	return (s1);
 }
