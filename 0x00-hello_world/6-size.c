@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+
 /**
 * main - Entry point
 *
@@ -17,12 +17,12 @@ int main(void)
 	long long int lli;
 	float f;
 
-	/*sizeof evaluates the size of variable */
-	printf("Size of a char: %zu 1 byte(s)\n", sizeof(c));
-	printf("Size of an int: %zu 4 byte(s)\n", sizeof(i));
-	printf("Size of a long int: %zu 4 byte(s)\n", sizeof(li));
-	printf("size of a long long int: %zu 8 byte(s)\n", sizeof(lli));
-	printf("Size of a float: %zu 4 byte(s)\n", sizeof(f));
+
+	printf("Size of a char: %d 1 byte(s)\n", sizeof(c));
+	printf("Size of an int: %d 4 byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d 4 byte(s)\n", sizeof(li));
+	printf("size of a long long int: %d 8 byte(s)\n", sizeof(lli));
+	printf("Size of a float: %d 4 byte(s)\n", sizeof(f));
 
 	return (0);
 }
