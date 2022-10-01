@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -8,7 +9,7 @@
 */
 int main(void)
 {
-	fwrite("and that piece of art is useful - Dora korpar, 2015-10-19", 61);
+	write(2, "and that piece of art is useful\" - Dora korpar, 2015-10-19", 59);
 
-	return (0);
+	return (1);
 }
